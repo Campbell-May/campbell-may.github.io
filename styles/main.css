@@ -56,6 +56,12 @@ h2 {
   color: #e60073;
 }
 
+h3 {
+  font-weight: bold;
+  font-size: 25px;
+  color: #e60073;
+}
+
 body {
 background-color: black;
 
@@ -167,4 +173,19 @@ footer {
 .inline {
   display: inline;
   color: #e60073;
+}
+.values p {
+  font-size:15px;
+  color: #dbe4eb;
+  font-family: Roboto, sans-serif;
+  text-align: left;
+  margin: 20px;
+}
+
+.values li {
+  font-size:15px;
+  color: #dbe4eb;
+  font-family: Roboto, sans-serif;
+  text-align: left;
+  margin: 20px;
 }
