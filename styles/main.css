@@ -174,20 +174,29 @@ footer {
   display: inline;
   color: #e60073;
 }
-.values p {
-  font-size:15px;
-  color: #dbe4eb;
-  font-family: Roboto, sans-serif;
-  text-align: left;
-  margin: 40px;
+
+@media (max-width: 600px) {
+  .values {
+    flex-direction: column;
+  }
 }
 
-.values li {
-  font-size:15px;
+.values p {
+  font-size:20px;
   color: #dbe4eb;
   font-family: Roboto, sans-serif;
   text-align: left;
-  margin: 20px;
+  margin: 25px;
+  word-wrap: break-word;
+  width: 90%;
+  }
+
+.values li {
+  font-size:20px;
+  color: #dbe4eb;
+  font-family: Roboto, sans-serif;
+  text-align: left;
+  margin: 25px;
 }
 
 .values h3 {
